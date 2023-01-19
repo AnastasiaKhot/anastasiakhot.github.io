@@ -1,0 +1,127 @@
+body {
+  background-color: #f1f2f2;
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  width: 100vw;
+  height: 350px;
+  background-color: #004156;
+}
+.header::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffc11e;
+  position: absolute;
+  right: 55px;
+  top: 115px;
+  overflow: hidden;
+  z-index: 2;
+}
+.my-photo {
+  width: 150px;
+  position: absolute;
+  top: 145px;
+  right: 85px;
+  z-index: 3;
+}
+
+.menu-table {
+  width: calc(100vw - 20%);
+  height: 50px;
+  background: linear-gradient(to right, #ffc11e, #004156);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.menu-table::before {
+  content: "";
+  width: 250px;
+  height: 400px;
+  background-color: #ffc11e;
+  position: absolute;
+  right: 35px;
+  top: 0px;
+  overflow: hidden;
+  z-index: 1;
+}
+header a {
+  color: #ffffff;
+  margin: 70px;
+}
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0px 0px 0px 70px;
+  position: relative;
+  top: 70px;
+  color: #ffc11e;
+}
+.header h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 0px 70px;
+  position: relative;
+  top: 100px;
+  color: #ffc11e;
+}
+.main h6 {
+  font-size: 20px;
+  margin: 40px 40px 30px 70px;
+  font-weight: normal;
+  color: #808285;
+  border-bottom: 1px solid;
+}
+.main p {
+  font-size: 20px;
+  color: #414042;
+  text-align: left;
+  margin: 10px 40px 0px 70px;
+}
+.about-table {
+  margin: 40px 40px 40px 70px;
+}
+.about-table p {
+  margin: 30px 30px 30px;
+  text-align: center;
+}
+
+.table1,
+.table2,
+.table3 {
+  background-color: #c1bbb7;
+  height: 50px;
+  width: 350px;
+  border-radius: 80px;
+  border: 1px solid #808285;
+  margin: 30px;
+}
+.business,
+.par,
+.study {
+  height: 50px;
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+
+.git {
+  display: block;
+  margin: 10px 0px 10px 70px;
+  height: 30px;
+}
+.contact a {
+  margin: 0px 0px 0px 70px;
+  color: #414042;
+}
+.footer {
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer p {
+  margin: 0px;
+}
