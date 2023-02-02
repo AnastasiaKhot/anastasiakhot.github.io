@@ -33,7 +33,7 @@ function toSend() {
   boxForUser.appendChild(message);
   stringBlock.appendChild(boxForUser);
 
-  const arrAnsw = input.value.split(' ');
+  const arrAnsw = input.value.toLowerCase().split(' ');
 
   const arrResponce = {
     взбодриться:
